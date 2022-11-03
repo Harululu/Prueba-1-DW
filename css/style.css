@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root{
+	--color-fondo-texto:#FFDA79;
+	--color-negro:#111;
+	--color-azul:#cce4e4;
+	--color-morado:#d6baf5;
+	--color-gris:#eeeeee;
+}
+
+#about,#worldwide,#subscribe,footer{
+	padding: 60px 0px;
+}
+h2{
+	font-size: 60px;
+}
+.contenidohero{
+	padding-top: 160px;
+}
+.btn-contact{
+	font-size: 20px;
+	background-color: var(--color-negro);
+	color: #fff;
+	padding: 10px 12px;
+	border: 1px solid #000;
+	font-weight: 600;
+}
+#hero h3{
+	margin-right: 450px;
+}
+.subtitulo{
+	background-color: var(--color-fondo-texto);
+	border: 1px solid var(--color-fondo-texto);
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 12px;
+}
+
+.subtitulo_2{
+	background-color: var(--color-azul);
+	border: 1px solid var(--color-azul);
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 12px;
+}
+
+#about{
+	background-color: #cce4e4;
+}
+
+#about p{
+	color: #17494d;
+}
+
+.cliente{
+	opacity: 50%;
+}
+
+#worldwide{
+	text-align: center;
+}
+
+#worldwide h3{
+	margin: 0px 650px;
+}
+
+#subscribe{
+	background-color: var(--color-morado);
+}
